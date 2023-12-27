@@ -6,8 +6,8 @@ Contains a method to filter the XML file to just get the attributes:
 * District
 * State
 
-The file can be udpdated in the "Utils" folder, keeping the name "direcciones.xml"
-1. Replace the file "direcciones.xml" with the new file in the folder "Utils"
+The file can be udpdated in the "Utils" folder
+1. Insert the new file and rename it to "direcciones.xml" in the folder "Utils"
 2. Delete the "direccionesMin.xml" file in the folder "Utils"
 3. Run the "Utils/filtro.js" file (if you are using node, just run the command "node filter.js")
 4. You will get now a new file "direccionesMin.xml" in the folder Utils
