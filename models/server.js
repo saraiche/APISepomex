@@ -7,8 +7,8 @@ class Server{
         this.app = express();
         this.port = process.env.PORT;
         this.middlewares();
-        this.routes();
         xmlLoader.cargarDatosDesdeXML();
+        this.routes();
     }
     middlewares(){
         this.app.use(cors());
